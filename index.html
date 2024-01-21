@@ -1,19 +1,57 @@
-<!DOCTYPE html>
-<html lang="en">
-
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Lizz Home Page</title>
-  <style>
-    h1 {
-        color: brown;
-    }
-  </style>
+    <title><position-solo class="html"></title>
+    <style>
+        body {
+            background-color: white;
+        }
+        .container {
+            padding: 20px 150px;
+        }
+        .relative {
+            background-color: #ccc;
+            text-align: center;
+            padding: 10px 0 200px 0;
+            font-size: 26px;
+            position: relative;
+        }
+        .absolute {
+            background-color: gray;
+            text-align: center;
+            padding: 20px;
+            font-size: 26px;
+            position: absolute;
+            bottom: 0;
+            right: -20px;
+            line-height: 1.5;
+        }
+        .fixed {
+            background-color: #ccc;
+            text-align: center;
+            padding: 20px;
+            font-size: 26px;
+            position: fixed;
+            top: 0;
+            left: 0;
+        }
+    </style>
+    <body>
+       <div class="container">
+            <h1>heading</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio nobis laborum dignissimos, officiis dicta ducimus id assumenda, dolore esse non provident cupiditate vitae facere, molestias sit. Unde accusamus autem praesentium?</p>
+            <div class="relative">
+                &lt;div&gt; <br />
+                position: relative
+                <div class="absolute">
+                    &lt;div&gt; <br />
+                    position: absolute
+                </div>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam voluptatum praesentium provident amet labore reiciendis blanditiis expedita, excepturi aspernatur, nisi ducimus debitis quibusdam soluta, nihil eveniet quasi minima nulla quae.</p>
+            <div class="fixed">
+                &lt;div&gt; <br />
+                position: fixed
+            </div>
+        </div>
+    </body>
+    
 </head>
-
-<body>
-  <h1>Lizzs Home Page</h1>
-</body>
-
-</html>
