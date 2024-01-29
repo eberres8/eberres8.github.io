@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Band Activity</title>
+  </head>
+  <body>
+    <script type="text/javascript">
+      /**
+      Create a website that accomplishes the following:
+      Create an array of your favorite bands.
+      With a prompt, ask the user’s favorite band.
+      If it’s one of your favorites, alert: “YEAH I LOVE THEM!”.
+      If it’s not, alert: “Nah. They’re pretty lame.”.
+      Hint: You will need to research how to use .indexOf()
+      Hint: You will need to research how to use .toLowerCase()
+      */
+     var favoriteBands = ["tim mcgraw", "shinedown", "volbeat", "breaking benjamin"];
+     var userFavoriteBand = prompt("what is your favorite band?");
+
+     if(favoriteBands.indexOf(userFavoriteBand.toLowerCase()) > -1) {
+        alert("YEAH I LOVE THEM!");
+     }
+     else {
+        alert("Nah. They're pretty lame.");
+     }
+    </script>
+  </body>
+</html>
+
+
+
+
+
+
